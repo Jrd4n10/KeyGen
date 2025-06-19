@@ -1,30 +1,39 @@
-# KeyGen
-Generador de contraseñas con cifrado integrado.
+# KeyGen  
+Generador de contraseñas con cifrado integrado.  
+Password generator with integrated encryption.
 
 ---
 
-## Características
+## Características / Features
 
-- Genera contraseñas aleatorias de 16 caracteres (letras mayúsculas, minúsculas y números).
-- Guarda las contraseñas con un nombre personalizado.
-- Protege tus contraseñas con cifrado.
-- Autenticación con usuario y contraseña para acceder al gestor.
-- Lista con contraseñas guardadas, con opción para copiar o eliminar cada una.
-- Elimina cuenta y datos de manera segura.
-- Interfaz gráfica sencilla usando Tkinter.
-- Ícono personalizado en la ventana (requiere archivo `key_icon.ico` en la carpeta `images`).
+- Genera contraseñas aleatorias de 16 caracteres (letras mayúsculas, minúsculas y números).  
+  Generates random 16-character passwords (uppercase, lowercase letters, and numbers).  
+- Guarda las contraseñas con un nombre personalizado.  
+  Saves passwords with a custom name.  
+- Protege tus contraseñas con cifrado.  
+  Protects your passwords with encryption.  
+- Autenticación con usuario y contraseña para acceder al gestor.  
+  User and password authentication to access the manager.  
+- Lista con contraseñas guardadas, con opción para copiar o eliminar cada una.  
+  List of saved passwords, with options to copy or delete each.  
+- Elimina cuenta y datos de manera segura.  
+  Securely deletes account and all data.  
+- Interfaz gráfica sencilla usando Tkinter.  
+  Simple graphical interface using Tkinter.  
+- Ícono personalizado en la ventana.  
+  Custom icon in the window.  
 
 ---
 
-## Requisitos
+## Requisitos / Requirements
 
-- Python 3.7+
-- Módulos:
-  - `tkinter`
-  - `cryptography`
-  - `pyperclip`
+- Python 3.7+  
+- Módulos / Modules:  
+  - `tkinter`  
+  - `cryptography`  
+  - `pyperclip`  
 
-Puedes instalar los módulos con:
+Puedes instalar los módulos con / You can install the modules with:
 
 ```bash
 pip install cryptography pyperclip
